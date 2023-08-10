@@ -11,7 +11,7 @@ var UVindex = $("#uv-index");
 
 var weatherContent = $("#weather-content");
 
-var APIkey = "2c3bb3154562d6acacdf33cff7465458"
+var APIkey = "3e6b6d617a56f8368e95810a1238a878"
 
 var cityList = [];
 
