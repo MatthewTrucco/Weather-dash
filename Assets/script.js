@@ -18,7 +18,7 @@ var cityList = [];
 var currentDate = moment().format('L');
 $("#current-date").text("(" + currentDate + ")");
 
-initializeHistory();
+initalizeHistory();
 showClear();
 
 $(document).on("submit", function(){
