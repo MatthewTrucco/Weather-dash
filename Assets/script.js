@@ -18,7 +18,7 @@ var cityList = [];
 var currentDate = moment().format('L');
 $("#current-date").text("(" + currentDate + ")");
 
-initalizeHistory();
+initializeHistory();
 showClear();
 
 $(document).on("submit", function(){
@@ -174,7 +174,7 @@ function listArray(){
 
 }
 
-function initalizeHistory() {
+function initializeHistory() {
     if (localStorage.getItem("cities")) {
         cityList = JSON.parse(localStorage.getItem("cities"));
         var lastIndex = cityList.length - 1;
